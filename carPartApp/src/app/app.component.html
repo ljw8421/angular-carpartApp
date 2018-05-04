@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+    <!-- Date Pipe 사용법 -->
+    <!--<h2>현재 날짜는 {{ today | date : 'yyyy-MM-dd EEEE HH:mm:ss' }}</h2>-->
+
+    <!--<app-car-part></app-car-part>-->
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a [routerLink]="['']">About</a></li>
+        <li><a [routerLink]="['/carPart']">CarPart</a></li>
+        <li><a [routerLink]="['/races']">Race</a></li>
+        <li><a [routerLink]="['/carpartform']">CarPartForm</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main role="main">
+  <router-outlet></router-outlet>
+</main>
+
+
+  <!-- One-way Binding 3가지
+  <!-- 1. {{ imageUrl }}   ( Interpolation 방법 )
+  <!-- 2. [src]="imageUrl" ( Property Binding 방법 )
+  <img width="300" alt="Angular Logo"  [src]="imageUrl" >
+  <br>
+
+  <!-- Event 객체를 넘김. ($evnet 써주면 됨.)
+  <!-- Event Binding
+  <button (click)="myHandler($event)" >Click</button>
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+-->
